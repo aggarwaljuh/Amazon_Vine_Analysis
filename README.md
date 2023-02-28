@@ -1,4 +1,4 @@
-# Amazon_Vine_Analysis
+# Amazon Vine Analysis
 
 ## Purpose
 The purpose of this study is to determine what if the Vine programs poses any bias to video games reviews. We want to tell SellBy the results so that they can make any changes they wish to.
@@ -58,5 +58,5 @@ fivestarunpaid=unpaid_vine_5star_df.count()/unpaid_vine_df.count()
 ```
 
 ## Summary
-There is postivity vias for reviews from the Vine program as those part of the Vine program had 12% more 5 star reviews. However due to small sample sizes this may not be completly comparable or significant. 
-We can do a t-test to determine if the two groups are significantly different.
+There is postivity bias for reviews from the Vine program as those part of the Vine program had 12% more 5 star reviews. However due to small sample sizes this may not be completly comparable or significant. 
+We can do a t-test to determine if the two groups are significantly different. We can do this test by using R.
